@@ -86,7 +86,7 @@ fun PuppyDetailsPage(
                     painter = image,
                     contentDescription = it.name,
                     contentScale = ContentScale.Crop,
-                    modifier = Modifier.aspectRatio(1f)
+                    modifier = Modifier.aspectRatio(1.5f)
                 )
                 Column(modifier = Modifier.padding(20.dp)) {
                     Text(
